@@ -27253,6 +27253,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 396.24 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16482a0f-32c1-4444-9143-9df909a06777")
+		(property "Reference" "#PWR0194"
+			(at 396.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 396.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 396.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebf85914-848f-408c-8ab8-0f47aa4b9d0b")
+		)
+		(instances
+			(project "ActiveAeroRP2354"
+				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 231.14 220.98 180)
 		(unit 1)
@@ -28016,6 +28081,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 360.68 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f10060b-0ba3-4324-8f06-f2a2d1627604")
+		(property "Reference" "C65"
+			(at 361.442 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 361.442 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 359.7148 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 360.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4f756e9-82a9-4040-b2b7-d5c93968056a")
+		)
+		(pin "1"
+			(uuid "e1ff890e-f94d-407c-8191-3ff444317745")
+		)
+		(instances
+			(project "ActiveAeroRP2354"
+				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 229.87 31.75 0)
 		(unit 1)
@@ -28699,6 +28833,71 @@
 			(project "ActiveAeroRP2354"
 				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 360.68 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "292e6277-39b4-4c0f-8829-d5185cf6fe1d")
+		(property "Reference" "#PWR0192"
+			(at 360.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 360.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 360.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9c014d7-3963-4d9f-bd0c-b21d4e771af2")
+		)
+		(instances
+			(project "ActiveAeroRP2354"
+				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -34636,6 +34835,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 396.24 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "620a48fb-b26a-44f6-b770-98d379982c94")
+		(property "Reference" "C66"
+			(at 397.002 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 397.002 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 395.2748 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 396.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 396.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3d5f57e-12ac-43f3-b624-d2ee52559dbc")
+		)
+		(pin "1"
+			(uuid "d3163d56-ea76-40a2-9c62-a62377a232ab")
+		)
+		(instances
+			(project "ActiveAeroRP2354"
+				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 317.5 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39495,6 +39763,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 396.24 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b3c26b-cdd8-42c0-a880-d2ac06ff3d71")
+		(property "Reference" "#PWR0193"
+			(at 396.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 396.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 396.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f14d5be-ae30-41e4-ad47-08ffa264212c")
+		)
+		(instances
+			(project "ActiveAeroRP2354"
+				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 381 246.38 0)
 		(unit 1)
@@ -43741,10 +44075,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d106fc65-cb98-432e-bfb4-98cdf94feaca")
 		(property "Reference" "C8"
-			(at 224.79 104.1399 0)
+			(at 221.742 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43753,7 +44086,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 224.79 106.6799 0)
+			(at 221.742 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46823,6 +47156,72 @@
 			(project "ActiveAeroRP2354"
 				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 360.68 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6b3b9d0-e90c-4812-b65b-892fa7ba50ce")
+		(property "Reference" "#PWR0191"
+			(at 360.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 360.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 360.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36586b25-23bf-4e84-82fa-e36dc20a87d7")
+		)
+		(instances
+			(project "ActiveAeroRP2354"
+				(path "/68e33d85-194b-4c6e-a941-b7ea380c3afc"
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
